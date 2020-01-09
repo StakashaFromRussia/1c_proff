@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="10de5d89-0849-4f19-8af5-b3dfe9956632">
+  <producedTypes>
+    <selectionType typeId="6a08eb3d-965f-45bf-96a2-b84f0a02e37f" valueTypeId="c009b35c-81c4-42b0-88b0-c444943dd197"/>
+    <listType typeId="92590eb2-cbc9-484e-9f4e-38a89447e0a1" valueTypeId="40f37eb1-c51d-432e-9bcb-a41f5a1d27f1"/>
+    <managerType typeId="d71f4854-ef2c-41a0-aebf-41b166f293dc" valueTypeId="2ddf4e10-2e1c-4e1c-8d3f-a4cd0c894b55"/>
+    <recordSetType typeId="15bb6ba4-f8a9-4bd0-b788-d30c1114414a" valueTypeId="96099fa8-43af-47eb-9f0f-cbb99cddeb15"/>
+    <recordKeyType typeId="fc5bbd5a-a85a-4039-857a-abf5b1ec6d44" valueTypeId="16588dca-837b-4176-84bb-89e7c321a1f8"/>
+    <recordType typeId="c3088421-ebcc-4219-bfb1-c126efcb042c" valueTypeId="f9cb8441-5325-4030-956d-931d7f3f4bea"/>
+    <recordManagerType typeId="92bee21e-3fc6-49dd-bfcb-437b3c02b9d8" valueTypeId="bedb6253-aa20-4069-87c4-251c718111de"/>
+  </producedTypes>
+  <name>СтатистикаТестирований</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статистика тестирований</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:InformationRegister>

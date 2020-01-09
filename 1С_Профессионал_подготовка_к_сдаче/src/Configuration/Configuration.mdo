@@ -29,4 +29,5 @@
   <catalogs>Catalog.Сертификаты</catalogs>
   <reports>Report.СписокВопросов</reports>
   <dataProcessors>DataProcessor.Тестирование</dataProcessors>
+  <informationRegisters>InformationRegister.СтатистикаТестирований</informationRegisters>
 </mdclass:Configuration>
