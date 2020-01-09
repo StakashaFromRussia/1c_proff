@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5802202f-46b7-487e-abe6-a10b9871b636">
+  <producedTypes>
+    <objectType typeId="fbe803f9-3ee0-463f-8f31-c5799c5ddc17" valueTypeId="72d7ed03-56dc-40f8-b94a-37cf188b3ffb"/>
+    <managerType typeId="1f8773e7-d20b-4012-99f8-7205513a0e07" valueTypeId="42ff362f-d078-4287-b302-4ff1084f09f4"/>
+  </producedTypes>
+  <name>Тестирование</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тестирование</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.Тестирование.Form.Форма</defaultForm>
+  <attributes uuid="eca9be24-d730-4f8d-b828-647c8209a774">
+    <name>Сертификат</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сертификат</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сертификаты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="36fdf515-903c-4013-aaaf-bc8a711579e0">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

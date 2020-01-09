@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="34a0cde1-38d0-444e-9853-ac8fbadb487d">
+  <producedTypes>
+    <objectType typeId="92b43ead-fa77-481c-9986-f650c817ce0e" valueTypeId="445675ea-9bfa-4253-aee4-3271ace0b47f"/>
+    <refType typeId="30396ed4-c240-4616-b269-0c39c84751b5" valueTypeId="0042efcd-143c-411b-b4fc-a7a465d07e6f"/>
+    <selectionType typeId="44c81d4b-b344-4c7f-bc11-7b7a6a2bffd6" valueTypeId="572addad-6a2a-49ee-8f11-d12a9ed2606e"/>
+    <listType typeId="dde47dc3-1c94-44a5-8dfd-72a13634ad14" valueTypeId="5d69befc-52c4-469f-a020-89cdc892a22d"/>
+    <managerType typeId="10a1d7be-2a2c-4d87-9ee4-fdc7279379b0" valueTypeId="ca7bfefe-490d-44f5-b8e8-b25c725a6dcd"/>
+  </producedTypes>
+  <name>Вопросы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вопросы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Вопросы.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Вопросы.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Вопросы.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultFolderForm>Catalog.Вопросы.Form.ФормаГруппы</defaultFolderForm>
+  <attributes uuid="8aeb0a4a-467c-4e25-aa5a-e5b2b33a9d89">
+    <name>Вопрос</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вопрос</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>500</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="924e993c-8f90-414a-9e28-9272233e095a">
+    <producedTypes>
+      <objectType typeId="60878bde-d6bf-4058-9007-8d88affe1de0" valueTypeId="31d9c2fd-c407-4e79-aea7-fee243585f9d"/>
+      <rowType typeId="dde1a2b2-a50e-4544-9b23-dc4c7ed604e1" valueTypeId="aff1e0aa-8e91-4998-a542-98459c0abcf7"/>
+    </producedTypes>
+    <name>ВариантыОтветов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Варианты ответов</value>
+    </synonym>
+    <attributes uuid="35d1a962-8192-43af-9006-8cbb3c550a05">
+      <name>Ответ</name>
+      <synonym>
+        <key>ru</key>
+        <value>Ответ</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>300</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="9f34df1a-eac4-417f-b16f-bbd2d33353cd">
+      <name>Правильный</name>
+      <synonym>
+        <key>ru</key>
+        <value>Правильный</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="9d266793-59da-405d-af8d-b317dea5f6ed">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="d4ba6555-b115-4dfb-8528-0de40981517a">
+    <name>ФормаГруппы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма группы</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>
