@@ -53,6 +53,21 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="d8d317fc-7db6-4b21-a607-f09888bece1c">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>200</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <tabularSections uuid="924e993c-8f90-414a-9e28-9272233e095a">
     <producedTypes>
       <objectType typeId="60878bde-d6bf-4058-9007-8d88affe1de0" valueTypeId="31d9c2fd-c407-4e79-aea7-fee243585f9d"/>
