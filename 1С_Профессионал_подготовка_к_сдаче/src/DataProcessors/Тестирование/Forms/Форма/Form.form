@@ -64,7 +64,7 @@
       <common>true</common>
     </userVisible>
     <dataPath xsi:type="form:DataPath">
-      <segments>ОТЛАДКА</segments>
+      <segments>Отладка</segments>
     </dataPath>
     <extendedTooltip>
       <name>РасширеннаяПодсказка</name>
@@ -91,19 +91,12 @@
       </userVisible>
       <autoFill>true</autoFill>
     </contextMenu>
-    <type>InputField</type>
+    <type>CheckBoxField</type>
     <editMode>Enter</editMode>
     <showInHeader>true</showInHeader>
     <headerHorizontalAlign>Left</headerHorizontalAlign>
     <showInFooter>true</showInFooter>
-    <extInfo xsi:type="form:InputFieldExtInfo">
-      <autoMaxWidth>true</autoMaxWidth>
-      <autoMaxHeight>true</autoMaxHeight>
-      <wrap>true</wrap>
-      <chooseType>true</chooseType>
-      <typeDomainEnabled>true</typeDomainEnabled>
-      <textEdit>true</textEdit>
-    </extInfo>
+    <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
   </items>
   <autoCommandBar>
     <name>ФормаКоманднаяПанель</name>
@@ -177,10 +170,10 @@
     </extInfo>
   </attributes>
   <attributes>
-    <name>ОТЛАДКА</name>
+    <name>Отладка</name>
     <title>
       <key>ru</key>
-      <value>ОТЛАДКА</value>
+      <value>Отладка</value>
     </title>
     <id>4</id>
     <valueType>
