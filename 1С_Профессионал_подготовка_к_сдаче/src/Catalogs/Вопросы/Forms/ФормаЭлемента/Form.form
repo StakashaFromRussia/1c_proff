@@ -231,6 +231,10 @@
           <segments>Объект.ВариантыОтветов.Ответ</segments>
         </paths>
       </dataPath>
+      <handlers>
+        <event>OnChange</event>
+        <name>ВариантыОтветовОтветПриИзменении</name>
+      </handlers>
       <extendedTooltip>
         <name>ВариантыОтветовОтветРасширеннаяПодсказка</name>
         <id>31</id>

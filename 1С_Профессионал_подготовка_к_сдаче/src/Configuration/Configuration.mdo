@@ -14,7 +14,7 @@
   <defaultLanguage>Language.Русский</defaultLanguage>
   <dataLockControlMode>Managed</dataLockControlMode>
   <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
-  <modalityUseMode>DontUse</modalityUseMode>
+  <modalityUseMode>UseWithWarnings</modalityUseMode>
   <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
   <compatibilityMode>8.3.14</compatibilityMode>
   <languages uuid="3afa43fb-de67-419f-8bab-fa7aa4c1c5bd">
