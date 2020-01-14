@@ -32,4 +32,11 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
+  <templates uuid="9383aba3-0b26-4055-b7f2-ed961e9b54ff">
+    <name>ВопросыERP</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вопросы ERP</value>
+    </synonym>
+  </templates>
 </mdclass:DataProcessor>
